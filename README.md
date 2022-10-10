@@ -19,9 +19,9 @@ https://getcomposer.org/doc/00-intro.md
 
 Verifica las versiones de cada uno de ellos
 
-Versión PHP - 7.4.2  
+Versión PHP - 7.4.21
 Versión Mysql - 5.7.26  
-Versión Composer - 1.10.1  
+Versión Composer - 2.3.5 
 
 ### Instalación 🔧
 
@@ -36,7 +36,7 @@ git clone https://github.com/jorgehernandezch/Laravel-8-Api-JWT.git
 _Instale todas las dependencias del Proyecto con_
 
 ```
-composer install
+composer install y composer update
 ```
 
 _Copie el Archivo .env.example en un archivo nuevo .env con_
@@ -73,7 +73,7 @@ _Corra el proyecto con_
 php artisan serve
 ```
 
-_Si todo está correcto puede acceder al proyecto en la dirección http://localhost:8000/api, el sistema devolverá un error en formato JSON diciendo que el usuario no está autenticado, eso significa que la API está funcionando correctamente._
+_Si todo está correcto puede acceder al proyecto en la dirección http://localhost:8000/api/users, el sistema devolverá un error en formato JSON diciendo que el usuario no está autenticado, eso significa que la API está funcionando correctamente._
 
 Use Postman o Insomnia para enviar datos GET y POST
 
